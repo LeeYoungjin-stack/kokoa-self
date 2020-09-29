@@ -1,0 +1,80 @@
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 25px;
+}
+
+.friends-header__icon1,
+.friends-header__icon2,
+.friends-header__icon3 {
+  padding: 0px 10px;
+}
+
+.friends-header__fontsize {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.friends-header__display {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 20px;
+}
+
+.friends-header__display__icon1,
+.friends-header__display__icon2 {
+  padding: 0px 5px;
+  color: gray;
+}
+
+.friends-profile {
+  display: flex;
+}
+
+.friends-profile__photo {
+  width: 80px;
+  height: 80px;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+.friends-profile__font {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 580;
+}
+
+.friends-channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  color: gray;
+}
+
+.friends-channel__sibal {
+  justify-content: space-between;
+}
+
+.friends-channel__sibal,
+.friends-channel__profile {
+  display: flex;
+  align-items: center;
+}
+
+.channel-photo {
+  width: 50px;
+  height: 50px;
+  padding: 15px 25px;
+  border-radius: 40%;
+}
+
+.friends-channel__profile:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
