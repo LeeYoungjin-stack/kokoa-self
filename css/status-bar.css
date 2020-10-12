@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px 5px;
+  background-color: #82c0bf;
+}
+
+#splash-screen img {
+  width: 100px;
+  height: 100px;
 }
 
 .Welcome-header {
@@ -59,8 +65,8 @@
 }
 
 #login-screen input[type="submit"] {
-  background-color: yellow;
   border-radius: 10px;
+  background-color: #82c0bf;
 }
 
 #login-screen a {
